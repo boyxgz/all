@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0 auto;}
+body{font-family:Microsoft YaHei,SimHei;
+}
+
+	html {font-size: 62.5%; max-width:800px;/*10 ÷ 16 × 100% = 62.5%*/}
+			body {font-size: 1.4rem;/*1.4 × 10px = 14px */}
+			h2 { font-size: 2.4rem;/*2.4 × 10px = 24px*/}
+
+
+.header,.top{ text-align:center;}
+.header img{ border:1px #ddd solid; padding:2px; margin:12% auto 5% auto;}
+h2{ color:#F00; margin-top:1%;}
+h2 b{ }
+h3{ margin:5px; color:#666;}
+.content{ text-align:center; margin:0 auto;}
+.content p{ margin-left:2%; margin-right:5%; margin-top:5%; margin-bottom:5%; line-height:200%; color:#333; font-size: 1.4rem;/*1.4 × 10px = 14px */}
+
+.textBox{ width:85%; height:90%;  border:2px #fff solid; padding:1% 5%; text-align:left; line-height:180%; background:#fff;
+	background-color:rgba(255,255,255,0.6);  /*标准浏览器 只需这句*/}
+.textBox a{ color:#000; font-family:"Arial Black", Gadget, sans-serif;}
+
+
+
+
+.main .divblock {
+	padding:5% 0;
+	border-bottom: solid 1px #ccc;
+}
+.textinput{padding: 1em; font-size:15pt; margin:5px; }
+.mytable{ border:1px solid #bddbe6; font-size:15pt;color:#333;}
+.mytable tr  td{ border:1px #bddbe6 solid;background-color:rgba(255,255,255,0.6);  }
+.mytable tr th{ padding:4px;background:#83c6f3; color:#fff; border:1px #fff solid; }
+
+/* button 
+---------------------------------------------- */
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-size:20pt;
+	padding: 1em 4em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+
+
+/* blue */
+.blue {
+	color: #d9eef7;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}
+.blue:hover {
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.blue:active {
+	color: #80bed6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+	background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
+.already_activate{ color:#090}
+.none_activate{ color:#333}
+.get_hongbao{ background:#2f96b4; color:#fff; padding:5px 20px; text-decoration:none; border-radius:5px;}
+.content_infor{ text-align:left; line-height:200%; font-size: xx-large;}
+.content_jianglijin{background:url(jianglijin.png) no-repeat center; min-height:294px; min-width:448px;}
+.content_jianglijin span{ position:relative;top:100px; font-size:x-large;}
+
+.button_viewall{color:#fff; font-size:x-large;	padding: 1em 3.2em; text-decoration:none; border-radius:5px;
+    background:#f89406; /* 一些不支持背景渐变的浏览器 */  
+    background:-moz-linear-gradient(top, #fbb450, #f89406));  
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#fbb450), to(#f89406));  
+    background:-o-linear-gradient(top, #fbb450, #f89406); 
+	border:1px #f89406 solid;
+
+}
+
+.share_tips{ width:90%; padding:5px;border:1px #d6e9c6 solid; background:#dff0d8; color:#468847; margin:5px auto; font-weight:normal; font-size:large;}
+.share_alert{ width:90%;padding:5px; border:1px #eed3d7 solid; background:#f2dede; color:#b94a48;margin:5px auto;font-weight:normal; font-size:large;}
+.content_intro{ font-size:small; color:#666; margin:5px;}
+
+#mcover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 20000;
+}
+#mcover img {
+    position: fixed;
+    right: 18px;
+    top: 5px;
+    width: 260px;
+    height: 180px;
+    z-index: 999;
+}

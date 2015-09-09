@@ -1,0 +1,14 @@
+@charset "utf-8";
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form,ul,li{margin:0;}
+body{ font:12px/1.5 "Microsoft YaHei", sans-serif; }
+ol, ul { list-style: none }
+ol,li{margin:0; padding:0;}
+
+.news-list{ margin:0 5px; padding:15px 15px 10px; }
+.news-list-pic{ width:100%; overflow:hidden; position:relative; line-height:normal; height:100%; }
+.news-list-pic img{ width:100%; }
+.news-list-pic span{ width:100%; display:block; line-height:normal; padding:6px; font-size:14px; color:#fff; position:absolute; left:0; bottom:4px; background-color:rgba(0,0,0,.5); }
+.news-list ul{ margin-top:20px; border-top:1px solid #f0f0f0; }
+.news-list li{ height:72px; overflow:hidden; border-bottom:1px solid #f0f0f0; position:relative; }
+.news-list li p{ padding-right:70px; padding-top:5px; line-height:24px; font-weight:bold; font-size:18px; }
+.news-list li img{ float:right; border:1px solid #f0f0f0; border-radius:3px; padding:2px; position:absolute; top:8px; right:0px; }

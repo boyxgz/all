@@ -1,0 +1,5 @@
+db:requestmap insert {/fall2015/**  ,/subscriberPortal/**}
+db:keyed_message insert {fall-2015-share-title ,article-url-fall-2015 ,FALL-2015-EVENT-CHOICE-TICKET ,FALL-2015-EVENT-title ,FALL-2015-EVENT-desc ,CardType-ENTERPRISE , CardType-PERSONAL , fall2015-save-receipt-succeed-desc , fall2015-save-receipt-succeed-title , fall2015-waiting-review-desc , FALL-2015-EVENT-TITLE}
+config.groovy:app.fall2015.file.upload.path = 
+
+db:app_var:fall-2015-1-draw-prize-max-player-daily .. fall-2015-7-draw-prize-max-player-daily
