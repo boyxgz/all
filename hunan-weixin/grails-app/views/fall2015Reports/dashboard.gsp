@@ -17,7 +17,7 @@
 			</ul>
 		</div>
 		<div id="create-fall2015Voucher" class="content scaffold-create">
-			<h1><g:message code="default.create.label" args="[entityName]" /></h1>
+			<h1>赢缤纷水果报表</h1>
 			<g:if test="${flash.message}">
 			<div class="message" role="status">${flash.message}</div>
 			</g:if>

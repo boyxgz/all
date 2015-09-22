@@ -89,6 +89,9 @@
 			    <p>
 					<g:link url="${resource(dir:'fall2015Reports/dashboard')}"  >赢缤纷水果报表</g:link>
 				</p>
+				<p>
+					<g:link url="${resource(dir:'fall2015Reports/cashReport')}"  >充值金额报表</g:link>
+				</p>
 			    <p>
 					<g:link url="${resource(dir:'fall2015Voucher/approvedList')}"  >批准发货</g:link>
 				</p>
