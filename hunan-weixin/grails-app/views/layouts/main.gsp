@@ -95,6 +95,7 @@
 			    <p>
 					<g:link url="${resource(dir:'fall2015Voucher/addressList')}"  >地址列表</g:link>
 				</p>
+				<!-- 
 			    <p>
 					<g:link url="${resource(dir:'lateSpring2015Report/dashboard')}"  >清明5.1活动汇总报表</g:link>
 				</p>
@@ -107,6 +108,7 @@
 			    <p>
 					<g:link url="${resource(dir:'reports/spring2015Dashboard')}"  >春节活动汇总报表</g:link>
 				</p>
+				 -->
 			    <p>
 					<g:link url="${resource(dir:'drawPrizeVoucher/list')}"  >抽奖明细表</g:link>
 				</p>
