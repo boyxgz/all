@@ -1,0 +1,42 @@
+{
+     "button":[
+      {
+	        "name": "大转盘", 
+	        "type": "click", 
+	        "key": "lucky-wheel-2015"
+	  },
+      {
+           "name":"车生活",
+           "sub_button":[
+            {
+		        "name": "油站导航", 
+		        "type": "location_select", 
+		        "key": "rselfmenu_2_0"
+			  },
+		      {
+			        "name": "违章查询", 
+			        "type": "click", 
+			        "key": "vehViolate"
+			  }
+		]
+       },
+      {
+           "name":"更多",
+           "sub_button":[
+            {
+               "type":"click",
+               "name":"联系小U",
+               "key":"contactU"
+            },
+            {	
+	          "type":"click",
+	          "name":"省钱攻略",
+	          "key":"saving"
+		    },
+            {	
+	          "type":"view",
+	          "name":"合作伙伴.车之翼",
+	          "url":"http://jx.sh-hansi.com/chezhiyi"
+		    }]
+       }]
+ }

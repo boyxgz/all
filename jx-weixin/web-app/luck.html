@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Luck</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<style type="text/css">
+	#image {
+		margin: 40px 40px;
+	}
+	</style>
+	<script type="text/javascript" src="js/jQueryRotateCompressed.js"></script>
+	<script type="text/javascript">
+	var interval;
+	//<![CDATA[ 
+	           /* $(window).load(function(){
+	        	   $("#image").rotate(180 + 36);
+	           }); */
+		$(window).load(function(){
+		var angle = 0;
+		interval = setInterval(function(){
+		      angle+=36;
+		     $("#image").rotate(angle);
+		},50);
+		});
+	//]]>  
+	function stopRotate() {
+		clearInterval(interval);
+		$("#image").rotate(36 * 6);
+	}
+	</script>
+</head>
+<body>
+<div style="background-image: url(app-images/pc.jpg);width: 208px;height: 208px" >
+<img src="app-images/arrow.gif" id="image" style="-webkit-transform: rotate(321deg); -webkit-transform-origin: 50% 50%;">
+</div>
+<input type="button" onclick="stopRotate()" value="stop">
+</body>
+</html>
+

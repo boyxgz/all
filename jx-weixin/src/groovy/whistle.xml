@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wx>
+	<token>1234321fvc</token>
+	<appid>wx6843083540cb5186</appid>
+    <secret>2f88c0be6128184fb7774f8d3829b96f</secret>
+	<processor-chain>
+		<processor>com.surelution.wxmp.jx.wx.AutoLocationAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.TextCommandAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.EmployeeCertifingAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.SalesAmountAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.VehicleViolateAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.GasGiftByVoice2Action</processor>
+		<processor>com.surelution.wxmp.jx.wx.GasGiftByVoiceGuide2Action</processor>
+		<processor>com.surelution.wxmp.jx.wx.PosScanAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.GiftCodeAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.PriseAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.LuckyWheel2015Action</processor>
+		<!-- 
+		<processor>com.surelution.wxmp.jx.wx.AccountInfoAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.CardServiceAction</processor> -->
+		<processor>com.surelution.wxmp.jx.wx.NavigationDemoAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.NavigationAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.ChatChannelAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.CommentAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.GameDemoAction</processor>
+		<!-- <processor>com.surelution.wxmp.jx.wx.PriseStationAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.PromotionAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.PictureAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.HorseGiftAction</processor> -->
+		<processor>com.surelution.wxmp.jx.wx.SubscribeAction</processor>
+		<processor>com.surelution.wxmp.jx.wx.DefaultAction</processor>
+	</processor-chain>
+</wx>
